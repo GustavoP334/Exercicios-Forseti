@@ -15,3 +15,5 @@ foreach ($info as $infos)
 {
     var_dump($infos);
 }
+
+echo $infos->inicio =
