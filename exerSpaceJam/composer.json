@@ -1,0 +1,22 @@
+{
+    "name": "root/exer-space-jam",
+    "description": "Exercício spaceJam",
+    "authors": [
+        {
+            "name": "Gustavo Lima",
+            "email": "gustavo.lima@forseti.com.br"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "forseti/logger": "^1.2"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Forseti\\exerSpaceJam\\": "src/"
+        }
+    }
+}

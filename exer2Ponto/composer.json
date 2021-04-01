@@ -1,0 +1,21 @@
+{
+  "name": "root/exer2ponto",
+  "description": "Exercício ponto",
+  "authors": [
+    {
+      "name": "Gustavo Lima",
+      "email": "gustavo.lima@forseti.com.br"
+    }
+  ],
+  "require": {
+    "symfony/dom-crawler": "3.4.47",
+    "symfony/css-selector": "3.4.47",
+    "guzzlehttp/guzzle": "6.5.5",
+    "forseti/logger": "1.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Forseti\\exer2Ponto\\": "src/"
+    }
+  }
+}
