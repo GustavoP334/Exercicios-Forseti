@@ -13,7 +13,11 @@ $info = $login->getParserTable()->getIterator()->current();
 
 foreach ($info as $infos)
 {
+    /*
+    echo 'inicio = ' . $infos->inicio;
+    echo 'almoço = ' . $infos->almoco;
+    echo 'retorno = ' . $infos->retorno;
+    echo 'final = ' . $infos->final;*/
     var_dump($infos);
 }
 
-echo $infos->inicio =
