@@ -4,7 +4,6 @@ namespace Forseti\exer2Ponto\PageObject;
 
 use Forseti\exer2Ponto\Singleton\ClientSingleton;
 use Forseti\exer2Ponto\Traits\ForsetiLoggerTrait;
-use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 
 abstract class AbstractPageObject
