@@ -11,13 +11,13 @@ $logado = $login
 
 $info = $login->getParserTable()->getIterator()->current();
 
+echo 'Início = ' . $info->inicio . PHP_EOL;
+echo 'Almoço = ' . $info->almoco . PHP_EOL;
+echo 'Retorno = ' . $info->retorno . PHP_EOL;
+echo 'Final = ' . $info->final . PHP_EOL;
+/*
 foreach ($info as $infos)
 {
-    /*
-    echo 'inicio = ' . $infos->inicio;
-    echo 'almoço = ' . $infos->almoco;
-    echo 'retorno = ' . $infos->retorno;
-    echo 'final = ' . $infos->final;*/
-    var_dump($infos);
+   var_dump($infos);
 }
-
+*/
