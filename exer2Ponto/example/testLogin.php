@@ -15,6 +15,10 @@ echo 'Início = ' . $info->inicio . PHP_EOL;
 echo 'Almoço = ' . $info->almoco . PHP_EOL;
 echo 'Retorno = ' . $info->retorno . PHP_EOL;
 echo 'Final = ' . $info->final . PHP_EOL;
+
+echo 'Hora = ' . $info->hora . PHP_EOL;
+echo 'Minuto = ' . $info->minuto . PHP_EOL;
+echo 'Segundo = ' . $info->segundo . PHP_EOL;
 /*
 foreach ($info as $infos)
 {
